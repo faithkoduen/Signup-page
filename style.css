@@ -1,0 +1,130 @@
+.container{
+    display :flex;
+    background-color:rgb(241, 233, 233);
+    width: 80%;
+    margin: 0 auto;
+    
+    
+    
+}
+h1{
+    color: purple;
+    text-align: center;
+    font-size: xx-large;
+
+}
+.inner-container{
+    border-right: solid 1px purple;
+    margin-right: 1cm;
+    padding-right: 2cm;
+}
+form{
+    width: 90%;
+    padding: 15px 3px;
+    text-align: left;
+    margin: auto;
+    float: center;
+}
+.first-form{
+    gap: 80px;
+    display: flex;
+    width: 100%;
+}
+  input{
+    padding: 20px ;
+    border: solid 1px ;
+    margin: 0;
+    width: 100%;
+    padding: 15px ;
+}
+ button{
+    padding: 15px 1px ;
+    width: 108% ;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+
+.password{
+    padding: 8px 18px;
+    width: 100%;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin:  100px auto;
+    text-align: center;
+}
+.hr-lines:before{
+    content: " ";
+    height: 1px;
+    width: 190px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.hr-lines:after{
+    content:" ";
+    height: 1px;
+     width: 190px;
+     background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0; 
+    
+}
+#google{
+    width: 30px;
+    height: 30px;
+    margin: left;
+    text-align: center;
+    font-size: medium;
+}
+#apple{
+    width: 30px;
+    height: 30px;
+    margin: right;
+    text-align: center;
+    font-size: medium;
+}
+#facebook{
+    width: 30px;
+    height: 40px;
+    margin: center;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.icons{
+    font-size: medium;
+    text-align: center;
+    justify-content: center;
+    display: flex;gap: 90px;
+    cursor: pointer;
+}
+#firsteye{
+    position: absolute;
+    right: 400px;
+    top: 250px;
+    color: grey;
+    cursor: pointer;
+    
+}
+#secondeye{
+    position:absolute;
+    right: 400px;
+    top: 330px;
+    color: grey;
+    
+    
+}
+
+
+
+    
+   
