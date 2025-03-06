@@ -83,6 +83,8 @@ form{
     margin: left;
     text-align: center;
     font-size: medium;
+    background-color: white;
+    padding-inline: 30px;
 }
 #apple{
     width: 30px;
@@ -90,13 +92,17 @@ form{
     margin: right;
     text-align: center;
     font-size: medium;
+    background-color: white;
+    padding-inline: 30px;
 }
 #facebook{
     width: 30px;
-    height: 40px;
+    height: 30px;
     margin: center;
     text-align: center;
-    font-size: medium;
+    font-size: large;
+    background-color: white;
+    padding-inline: 30px;
 
 }
 
@@ -120,6 +126,7 @@ form{
     right: 400px;
     top: 330px;
     color: grey;
+    cursor: pointer;
     
     
 }
